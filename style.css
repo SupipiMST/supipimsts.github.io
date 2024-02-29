@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.info h2{
+    color: rgb(18, 155, 66);
+}
+
+.info p{
+    color: rgb(213, 16, 137);
+    font-size: 220%;
+}
+
+.info h3{
+    color: rgb(232, 243, 18);
+}
+
+.main{
+    width: 100%;
+    background: url(Photos/SK.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 28%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+ul{
+    margin-top: 2%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: solid;
+    color: blue;
+    margin-top: 2%;
+}
+
+ul li a:hover{
+    color: rgb(250, 64, 8);
+}
+
+.info{
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+.info h1{
+    color: black;
+}
+
+.info h3{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.info span{
+    color: crimson;
+}
+
+.image{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 80%;
+    width: 45%;
+    right: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+
